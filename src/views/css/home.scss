@@ -1,0 +1,29 @@
+.intro{
+    position: relative;
+    padding: 20px 10px;
+    margin: 0 auto;
+    height: 100vh;
+    background-image: linear-gradient(to right, #242940, #242940);
+}
+
+.intro .heading {
+    font-size: 40px;
+    font-family:fantasy;
+    padding: 10vh 50px 10vh 50px;
+}
+
+.intro .brief {
+    font-size: 30px;
+    padding: 15vh 40px 15vh 40px;
+}
+
+.intro .link {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.intro a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 20px;
+}
