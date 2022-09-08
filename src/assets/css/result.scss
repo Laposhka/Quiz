@@ -1,0 +1,34 @@
+.result{
+    position: relative;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to right, #242940, #242940);
+
+    .heading {
+        padding: 2vh 5vw 2vh 5vw;
+        &-inner {
+            border: solid #FFFFFF;
+            border-width: 3px 5px;
+        }
+    }
+
+    .answers {
+        font-size: 20px;
+        padding: 2vh 4vw 2vh 4vw;
+    }
+
+    .answer {
+        margin: 0.5vh 4vw 0.5vh 4vw;
+        display: flex;
+        flex-direction: row;
+
+        .correctness{
+            margin: 1vh 1vw 1vh 1vw;
+        }
+
+        .problem{
+            flex: 1;
+            margin: 1vh 1vw 1vh 1vw;
+        }
+    }
+}
