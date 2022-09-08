@@ -11,5 +11,6 @@ export interface State {
     data: Array<Problem>,
     results: Array<string>,
     isloaded: boolean,
+    quizProgress: number
     score: number
 }

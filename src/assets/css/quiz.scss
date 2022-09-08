@@ -11,21 +11,21 @@
     height: 100vh;
     margin: 0 auto;
     font-family: 'Courier New', Courier, monospace;
-}
 
-.quiz .heading {
-    padding: 10vh 5vw 10vh 5vw;
-}
+    .heading {
+        padding: 10vh 5vw 10vh 5vw;
+    }
 
-.quiz .question {
-    font-size: 30px;
-    padding: 13vh 4vw 13vh 4vw;
-    border-color: solid cadetblue;
-    border-width: 5px;
-}
+    .question {
+        font-size: 30px;
+        padding: 13vh 4vw 13vh 4vw;
+        border-color: solid cadetblue;
+        border-width: 5px;
+    }
 
-.quiz .number {
-    padding: 7vh 4vw 7vh 4vw;
+    .number {
+        padding: 7vh 4vw 7vh 4vw;
+    }
 }
 
 .btns{
@@ -61,7 +61,7 @@
     &:hover {
       background-color: #48E68B;
     }
-  }
+}
   
 .red {
     background-color: #e74c3c;
@@ -70,4 +70,13 @@
         background-color: #FF6656;
     }
 }
+
+.yellow {
+    background-color: #c4d61d;
+    box-shadow: 0px 5px 0px 0px #c5c217;
+    &:hover {
+        background-color: #cef104;
+    }
+}
+  
   

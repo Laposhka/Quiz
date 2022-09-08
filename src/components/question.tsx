@@ -1,6 +1,6 @@
 import { useSelector} from "react-redux"
-import "../views/css/quiz.scss"
-import {Problem, State} from '../types/quiz'
+import "../assets/css/quiz.scss"
+import {Problem, State} from '../interfaces/quiz'
 
 const Question = (props: {no:number}) => {
 

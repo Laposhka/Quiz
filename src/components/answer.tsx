@@ -1,6 +1,6 @@
 import { useSelector} from "react-redux"
-import {Problem, State} from '../types/quiz'
-import "../views/css/result.scss"
+import {Problem, State} from '../interfaces/quiz'
+import "../assets/css/result.scss"
 
 const Answer = (props: {no: number}) => {
     const problem: Problem = useSelector(
